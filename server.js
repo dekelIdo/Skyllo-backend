@@ -5,7 +5,6 @@ const path = require('path')
 
 const app = express()
 const http = require('http').createServer(app)
-
 // Express App Config
 app.use(cookieParser())
 app.use(express.json())
@@ -30,7 +29,7 @@ const {setupSocketAPI} = require('./services/socket.service')
 // routes
 const setupAsyncLocalStorage = require('./middlewares/setupAls.middleware')
 app.all('*', setupAsyncLocalStorage)
-
+app.use(express.static('public'));
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/board', boardRoutes)
@@ -44,8 +43,9 @@ app.get('/**', (req, res) => {
 })
 
 const logger = require('./services/logger.service')
-// const port = process.env.PORT || 3030
-const port = 3030
+const port = process.env.PORT || 3030
+// const port = 3030
 http.listen(port, () => {
-    logger.info('Server is running on port: ' + port)
+   console.log('Server is running on port: ' + port)
 })
+
