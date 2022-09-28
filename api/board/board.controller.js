@@ -49,7 +49,7 @@ async function updateBoard(req, res) {
   try {
     const board = req.body;
     const updatedBoard = await boardService.update(board)
-    if(loggedinUser) {
+    if(loggedinUser&& !board.isPopoverShown) {
       socketService.broadcast({type: 'board-updated', data: board, userId: loggedinUser._id})
     }
     res.json(updatedBoard)
