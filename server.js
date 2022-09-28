@@ -38,14 +38,22 @@ setupSocketAPI(http)
 // Make every server-side-route to match the index.html
 // so when requesting http://localhost:3030/index.html/car/123 it will still respond with
 // our SPA (single page app) (the index.html file) and allow vue-router to take it from there
-app.get('/**', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'))
-})
+// app.get('/**', (req, res) => {
+//     res.sendFile(path.join(__dirname, 'public', 'index.html'))
+// })
 
 const logger = require('./services/logger.service')
-const port = process.env.PORT || 3030
+// const port = process.env.PORT || 3030
 // const port = 3030
-http.listen(port, () => {
-   console.log('Server is running on port: ' + port)
+// http.listen(port, () => {
+//    console.log('Server is running on port: ' + port)
+// })
+
+const port = process.env.PORT || 3030;
+app.get('/**', (req, res) => {
+ res.sendFile(path.join(__dirname, 'public', 'index.html'));
 })
+app.listen(port, () => {
+ console.log(`App listening on port ${port}!`)
+});
 
