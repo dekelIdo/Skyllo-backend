@@ -12,6 +12,7 @@ async function login(username, password) {
     // TODO: un-comment for real login
     // const match = await bcrypt.compare(password, user.password)
     // if (!match) return Promise.reject('Invalid username or password')
+    if (password !== user.password) return Promise.reject('Invalid username or password')
 
     delete user.password
     user._id = user._id.toString()
@@ -33,8 +34,8 @@ async function signup({username, password, fullname, imgUrl}) {
     const userExist = await userService.getByUsername(username)
     if (userExist) return Promise.reject('Username already taken')
 
-    const hash = await bcrypt.hash(password, saltRounds)
-    return userService.add({ username, password: hash, fullname, imgUrl })
+    // const hash = await bcrypt.hash(password, saltRounds)
+    return userService.add({ username, password: password, fullname, imgUrl })
 }
 
 

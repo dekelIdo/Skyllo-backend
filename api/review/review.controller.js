@@ -32,6 +32,8 @@ async function deleteReview(req, res) {
 async function addReview(req, res) {
 
     var loggedinUser = authService.validateToken(req.cookies.loginToken)
+  
+
  
     try {
         var review = req.body
