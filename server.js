@@ -54,7 +54,6 @@ http.listen(port, () => {
    console.log('Server is running on port: ' + port)
 })
 
-// const port = process.env.PORT || 3030;
 // app.get('/**', (req, res) => {
 //     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 // })

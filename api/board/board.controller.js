@@ -35,6 +35,7 @@ async function addBoard(req, res) {
     const board = req.body
     board.createdBy = loggedinUser
     const addedBoard = await boardService.add(board)
+    
     socketService.broadcast({type: 'board-added', data: board, userId: loggedinUser._id})
     res.json(addedBoard)
   } catch (err) {
@@ -50,6 +51,7 @@ async function updateBoard(req, res) {
     const board = req.body;
     const updatedBoard = await boardService.update(board)
     if(loggedinUser && !board.isPopoverShown) {
+      console.log('loggedinUser',loggedinUser)
       socketService.broadcast({type: 'board-updated', data: board, userId: loggedinUser._id})
     }
     res.json(updatedBoard)
