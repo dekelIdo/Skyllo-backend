@@ -45,6 +45,8 @@ async function addBoard(req, res) {
 
 // PUT (Update board)
 async function updateBoard(req, res) {
+  console.log('req.body',req.body)
+  
   const loggedinUser = authService.validateToken(req.cookies.loginToken)
   try {
     const board = req.body;
