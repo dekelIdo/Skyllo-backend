@@ -50,6 +50,8 @@ async function add(board) {
 }
 async function update(board) {
     try {
+        console.log('boardddddddddd:', board)
+        
         var id = ObjectId(board._id)
         delete board._id
         const collection = await dbService.getCollection('board')

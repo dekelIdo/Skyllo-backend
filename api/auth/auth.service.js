@@ -12,8 +12,9 @@ async function login(username, password) {
     // TODO: un-comment for real login
     // const match = await bcrypt.compare(password, user.password)
     // if (!match) return Promise.reject('Invalid username or password')
+    if (password !== user.password) return Promise.reject('Invalid username or password')
 
-    delete user.password
+    // delete user.password
     user._id = user._id.toString()
     return user
 }
@@ -46,7 +47,6 @@ function validateToken(loginToken) {
     try {
         const json = cryptr.decrypt(loginToken)
         const loggedinUser = JSON.parse(json)
-        
         return loggedinUser
 
     } catch(err) {
