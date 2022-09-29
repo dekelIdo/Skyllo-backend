@@ -45,29 +45,236 @@
             "color": "#8BBDD9"
         }
     ],
-    "members": [
+    "members": [],
+    "groups": [
         {
-            "_id": "63300db2f69ea4053b2b3440",
-            "fullname": "Eldad Yikne",
-            "img": "https://res.cloudinary.com/dwdpgwxqv/image/upload/v1663583512/sprint%204%20/T03E3RZ2KHV-U03GZ4S8P7C-0dcebbbdbc4f-512_tlntp4.jpg"
+            "id": "g101",
+            "title": "General",
+            "archivedAt": "",
+            "tasks": [
+                {
+                    "id": "c101",
+                    "title": "Target Product Launch Date: November 1, 2022",
+                    "description": "Call the company and schedule",
+                    "memberIds": [],
+                    "labelIds": ["la206", "la201"]
+
+                },
+                {
+                    "id": "c102",
+                    "title": "UX/UI",
+                    "description": "Design the app",
+                    "memberIds": [],
+                    "labelIds": ["la206", "la202"],
+                    "attachments": [
+                        {
+                            "createdAt": "2022-09-22T07:31:11.943Z",
+                            "id": "jDk2US",
+                            "isCover": false,
+                            "isEdit": false,
+                            "title": "sass",
+                            "url": "https://www.freecodecamp.org/news/content/images/2022/04/sass-image.png"
+                        }
+                    ],
+                    "cover": {
+                        "color": "https://www.freecodecamp.org/news/content/images/2022/04/sass-image.png"   
+                    }
+                },
+                {
+                    "id": "c103",
+                    "title": "Launch Timeline",
+                    "description": "",
+                    "memberIds": [],
+                    "labelIds": ["la205"]
+                }
+            ],
+            "style": {}
         },
         {
-            "_id": "63300db2f69ea4053b2b343f",
-            "fullname": "Dekel Ido",
-            "img": "https://res.cloudinary.com/dwdpgwxqv/image/upload/v1663583549/sprint%204%20/T03E3RZ2KHV-U03KC7A8R6F-97b018241b8a-512_ougkz6.jpg"
+            "id": "g102",
+            "title": "Frontend",
+            "tasks": [
+                {
+                    "id": "c104",
+                    "title": "Create Homepage",
+                    "description": "Group 1 only",
+                    "archivedAt": "",
+                    "memberIds": [],
+                    "labelIds": ["la203"]
+
+                },
+                {
+                    "id": "c107",
+                    "title": "Plane components tree",
+                    "description": "",
+                    "archivedAt": "",
+                    "memberIds": [],
+                    "labelIds": ["la204"],
+                    "dueDate": {
+                        "date": 1664378400000,
+                        "dateToDisplay": "Sep 28",
+                        "isDone": false
+                    },
+                    "checklists": [
+                        {
+                            "id": "o5LMi8",
+                            "isDone": false,
+                            "title": "components",
+                            "todos": [
+                                {
+                                "id": "1bl6uB",
+                                "title": "task preview",
+                                "isDone": false
+                            },
+                                {
+                                "id": "1bl6uS",
+                                "title": "group list",
+                                "isDone": true
+                            }
+                        ] 
+                        }
+                    ],
+                    "style": {
+                        "bgColor": "#26de81"
+                    }
+                }
+            ],
+            "style": {}
         },
         {
-            "_id": "63300db2f69ea4053b2b343e",
-            "fullname": "Yaara Yehuda",
-            "img": "https://res.cloudinary.com/dwdpgwxqv/image/upload/v1663583460/sprint%204%20/T03E3RZ2KHV-U03KVHTDXAR-77f29bd19fdf-512_vqrj3l.jpg"
+            "id": "g103",
+            "title": "Backend",
+            "tasks": [
+                {
+                    "id": "c108",
+                    "title": "Support filtration",
+                    "description": "",
+                    "archivedAt": "",
+                    "memberIds": [],
+                    "labelIds": ["la201"]
+
+                },
+                {
+                    "id": "c109",
+                    "title": "Applying server",
+                    "description": "",
+                    "archivedAt": "",
+                    "memberIds": [],
+                    "labelIds": ["la205"],
+                    "cover": {
+                        "color": "https://res.cloudinary.com/practicaldev/image/fetch/s--e_rqeB7o--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/max/2400/1%2AFPtQLT2Zk-baHficCz_mXQ.png"
+                    }
+
+                },
+                {
+                    "id": "c110",
+                    "title": "Planing the JSON file",
+                    "description": "Make it perfect for MongoDB",
+                    "archivedAt": "",
+                    "memberIds": [],
+                    "labelIds": ["la204"],
+                    "cover": {
+                        "color": "https://g.foolcdn.com/art/companylogos/square/mdb.png"
+                    }
+
+                }
+            ] 
         },
         {
-            "_id": "63300db2f69ea4053b2b343d",
-            "fullname": "Roi Yotvat",
-            "img": "https://res.cloudinary.com/dwdpgwxqv/image/upload/v1663583580/sprint%204%20/T03E3RZ2KHV-U03HE9ZJTA6-79c26a7781c8-512_m1ydbz.png"
-            
+            "id": "g104",
+            "title": "QA",
+            "tasks": [
+                {
+                    "id": "c111",
+                    "title": "Meeting with head manager for planning the code progress",
+                    "description": "",
+                    "archivedAt": "",
+                    "memberIds": [],
+                    "labelIds": ["la206"]
+                },
+                {
+                    "id": "c112",
+                    "title": "fixing Bugs",
+                    "description": "",
+                    "archivedAt": "",
+                    "memberIds": [],
+                    "labelIds": ["la204", "la202"],
+                    "checklists": [
+                        {
+                            "id": "o5Lhg2",
+                            "isDone": false,
+                            "title": "Bugs to fix",
+                            "todos": [
+                                {
+                                "id": "1bl3g6",
+                                "title": "group components does not re-render when changing task",
+                                "isDone": true
+                            },
+                                {
+                                "id": "1fv5e4",
+                                "title": "duplicating tasks when saved",
+                                "isDone": false
+                            }
+                        ] 
+                        }
+                    ]
+
+                }
+        
+            ] 
         }
     ],
+    "activities": [],
+    "cmpsOrder": ["status-picker", "member-picker", "date-picker"],
+    "toggleLabels": false
+    
+},
+    {
+
+    "title": "Start up",
+    "archivedAt": "",
+    "createdBy": {
+        "_id": "63300db2f69ea4053b2b3440",
+        "fullname": "Eldad Yikne",
+        "imgUrl": "https://res.cloudinary.com/dwdpgwxqv/image/upload/v1663583512/sprint%204%20/T03E3RZ2KHV-U03GZ4S8P7C-0dcebbbdbc4f-512_tlntp4.jpg"
+    },
+    "style": {
+                "bgImg": "url('https://res.cloudinary.com/dwdpgwxqv/image/upload/v1663488783/sprint%204%20/220503164709-02-body-incredible-train-journeys_dh1ewu.jpg')",
+                "isStared": false
+    },
+    "labels": [
+        {
+            "id": "la201",
+            "title": "Done",
+            "color": "#B7DDB0"
+        },
+        {
+            "id": "la202",
+            "title": "Progress",
+            "color": "#F5EA92"
+        },
+        {
+            "id": "la203",
+            "title": "Free time",
+            "color": "#FAD29C"
+        },
+        {
+            "id": "la204",
+            "title": "Urgent",
+            "color": "#EFB3AB"
+        },
+        {
+            "id": "la205",
+            "title": "Can wait",
+            "color": "#DFC0EB"
+        },
+        {
+            "id": "la206",
+            "title": "Priority",
+            "color": "#8BBDD9"
+        }
+    ],
+    "members": [],
     "groups": [
         {
             "id": "g101",
@@ -341,28 +548,7 @@
         }
     ]
     ,
-    "members": [
-        {
-            "_id": "63300db2f69ea4053b2b3440",
-            "fullname": "Eldad Yikne",
-            "img": "https://res.cloudinary.com/dwdpgwxqv/image/upload/v1663583512/sprint%204%20/T03E3RZ2KHV-U03GZ4S8P7C-0dcebbbdbc4f-512_tlntp4.jpg"
-        },
-        {
-            "_id": "63300db2f69ea4053b2b343f",
-            "fullname": "Dekel Ido",
-            "img": "https://res.cloudinary.com/dwdpgwxqv/image/upload/v1663583549/sprint%204%20/T03E3RZ2KHV-U03KC7A8R6F-97b018241b8a-512_ougkz6.jpg"
-        },
-        {
-            "_id": "63300db2f69ea4053b2b343e",
-            "fullname": "Yaara Yehuda",
-            "img": "https://res.cloudinary.com/dwdpgwxqv/image/upload/v1663583460/sprint%204%20/T03E3RZ2KHV-U03KVHTDXAR-77f29bd19fdf-512_vqrj3l.jpg"
-        },
-        {
-            "_id": "63300db2f69ea4053b2b343d",
-            "fullname": "Roi Yotvat",
-            "img": "https://res.cloudinary.com/dwdpgwxqv/image/upload/v1663583580/sprint%204%20/T03E3RZ2KHV-U03HE9ZJTA6-79c26a7781c8-512_m1ydbz.png"
-        }
-    ],
+    "members": [],
     "groups": [
         {
             "id": "g105",
@@ -381,12 +567,6 @@
                     "id": "11111",
                     "title": "UX/UI",
                     "description": "",
-                    "memberIds": [],
-                    "labelIds": []
-                },
-                {
-                    "id": "222222",
-                    "title": "Adding medicine to trial group",
                     "memberIds": [],
                     "labelIds": []
                 },
@@ -463,7 +643,39 @@
             "bgImg": "url('https://res.cloudinary.com/dwdpgwxqv/image/upload/v1663489044/sprint%204%20/abstract-pink-watercolor-background-illustration-high-resolution-free-photo_1340-21115_lorgj1.jpg')",
             "isStared": false
         },
-        "groups": []
+        "groups": [],
+        "labels": [
+            {
+                "id": "la201",
+                "title": "Done",
+                "color": "#B7DDB0"
+            },
+            {
+                "id": "la202",
+                "title": "Progress",
+                "color": "#F5EA92"
+            },
+            {
+                "id": "la203",
+                "title": "Free time",
+                "color": "#FAD29C"
+            },
+            {
+                "id": "la204",
+                "title": "Urgent",
+                "color": "#EFB3AB"
+            },
+            {
+                "id": "la205",
+                "title": "Can wait",
+                "color": "#DFC0EB"
+            },
+            {
+                "id": "la206",
+                "title": "Priority",
+                "color": "#8BBDD9"
+            }
+        ]
     },
     {
 
@@ -492,7 +704,39 @@
             "bgImg": "url('https://res.cloudinary.com/dwdpgwxqv/image/upload/v1663489161/sprint%204%20/shoes-434918__480_xlty5c.jpg')",
             "isStared": true
         },
-        "groups": []
+        "groups": [],
+        "labels": [
+            {
+                "id": "la201",
+                "title": "Done",
+                "color": "#B7DDB0"
+            },
+            {
+                "id": "la202",
+                "title": "Progress",
+                "color": "#F5EA92"
+            },
+            {
+                "id": "la203",
+                "title": "Free time",
+                "color": "#FAD29C"
+            },
+            {
+                "id": "la204",
+                "title": "Urgent",
+                "color": "#EFB3AB"
+            },
+            {
+                "id": "la205",
+                "title": "Can wait",
+                "color": "#DFC0EB"
+            },
+            {
+                "id": "la206",
+                "title": "Priority",
+                "color": "#8BBDD9"
+            }
+        ]
     },
     {
         "title": "Robot dev proj",
@@ -506,7 +750,39 @@
             "bgImg": "url('https://res.cloudinary.com/dwdpgwxqv/image/upload/v1663489186/sprint%204%20/cool-music-background-1366x768-laptop-49923_pqf7dn.jpg')",
             "isStared": true
         },
-        "groups": []
+        "groups": [],
+        "labels": [
+            {
+                "id": "la201",
+                "title": "Done",
+                "color": "#B7DDB0"
+            },
+            {
+                "id": "la202",
+                "title": "Progress",
+                "color": "#F5EA92"
+            },
+            {
+                "id": "la203",
+                "title": "Free time",
+                "color": "#FAD29C"
+            },
+            {
+                "id": "la204",
+                "title": "Urgent",
+                "color": "#EFB3AB"
+            },
+            {
+                "id": "la205",
+                "title": "Can wait",
+                "color": "#DFC0EB"
+            },
+            {
+                "id": "la206",
+                "title": "Priority",
+                "color": "#8BBDD9"
+            }
+        ]
     },
     {
         "title": "Robot dev proj",
@@ -520,7 +796,39 @@
             "bgImg": "url('https://res.cloudinary.com/dwdpgwxqv/image/upload/v1663489208/sprint%204%20/wp3422169_eakibu.jpg')",
             "isStared": true
         },
-        "groups": []
+        "groups": [],
+        "labels": [
+            {
+                "id": "la201",
+                "title": "Done",
+                "color": "#B7DDB0"
+            },
+            {
+                "id": "la202",
+                "title": "Progress",
+                "color": "#F5EA92"
+            },
+            {
+                "id": "la203",
+                "title": "Free time",
+                "color": "#FAD29C"
+            },
+            {
+                "id": "la204",
+                "title": "Urgent",
+                "color": "#EFB3AB"
+            },
+            {
+                "id": "la205",
+                "title": "Can wait",
+                "color": "#DFC0EB"
+            },
+            {
+                "id": "la206",
+                "title": "Priority",
+                "color": "#8BBDD9"
+            }
+        ]
     },
     {
         "title": "Holiday",
@@ -534,6 +842,38 @@
             "bgImg": "url('https://res.cloudinary.com/dwdpgwxqv/image/upload/v1663489228/sprint%204%20/2819238_bxfwdo.jpg')",
             "isStared": true
         },
+         "labels": [
+            {
+                "id": "la201",
+                "title": "Done",
+                "color": "#B7DDB0"
+            },
+            {
+                "id": "la202",
+                "title": "Progress",
+                "color": "#F5EA92"
+            },
+            {
+                "id": "la203",
+                "title": "Free time",
+                "color": "#FAD29C"
+            },
+            {
+                "id": "la204",
+                "title": "Urgent",
+                "color": "#EFB3AB"
+            },
+            {
+                "id": "la205",
+                "title": "Can wait",
+                "color": "#DFC0EB"
+            },
+            {
+                "id": "la206",
+                "title": "Priority",
+                "color": "#8BBDD9"
+            }
+        ],
         "groups": []
     },
     {
@@ -548,6 +888,38 @@
             "bgImg": "url('https://res.cloudinary.com/dwdpgwxqv/image/upload/v1663489252/sprint%204%20/pexels-photo-414102.jpeg_p3l2ze.jpg')",
             "isStared": true
         },
+        "labels": [
+            {
+                "id": "la201",
+                "title": "Done",
+                "color": "#B7DDB0"
+            },
+            {
+                "id": "la202",
+                "title": "Progress",
+                "color": "#F5EA92"
+            },
+            {
+                "id": "la203",
+                "title": "Free time",
+                "color": "#FAD29C"
+            },
+            {
+                "id": "la204",
+                "title": "Urgent",
+                "color": "#EFB3AB"
+            },
+            {
+                "id": "la205",
+                "title": "Can wait",
+                "color": "#DFC0EB"
+            },
+            {
+                "id": "la206",
+                "title": "Priority",
+                "color": "#8BBDD9"
+            }
+        ],
         "groups": []
     },
     {
@@ -562,6 +934,38 @@
             "bgImg": "url('https://res.cloudinary.com/dwdpgwxqv/image/upload/v1663489270/sprint%204%20/3547009_fjiyfh.jpg')",
             "isStared": true
         },
+        "labels": [
+            {
+                "id": "la201",
+                "title": "Done",
+                "color": "#B7DDB0"
+            },
+            {
+                "id": "la202",
+                "title": "Progress",
+                "color": "#F5EA92"
+            },
+            {
+                "id": "la203",
+                "title": "Free time",
+                "color": "#FAD29C"
+            },
+            {
+                "id": "la204",
+                "title": "Urgent",
+                "color": "#EFB3AB"
+            },
+            {
+                "id": "la205",
+                "title": "Can wait",
+                "color": "#DFC0EB"
+            },
+            {
+                "id": "la206",
+                "title": "Priority",
+                "color": "#8BBDD9"
+            }
+        ],
         "groups": []
     },
     {
@@ -576,6 +980,38 @@
             "bgImg": "url('https://res.cloudinary.com/dwdpgwxqv/image/upload/v1663489294/sprint%204%20/webpc-passthru.php_myunwy.png')",
             "isStared": true
         },
+        "labels": [
+            {
+                "id": "la201",
+                "title": "Done",
+                "color": "#B7DDB0"
+            },
+            {
+                "id": "la202",
+                "title": "Progress",
+                "color": "#F5EA92"
+            },
+            {
+                "id": "la203",
+                "title": "Free time",
+                "color": "#FAD29C"
+            },
+            {
+                "id": "la204",
+                "title": "Urgent",
+                "color": "#EFB3AB"
+            },
+            {
+                "id": "la205",
+                "title": "Can wait",
+                "color": "#DFC0EB"
+            },
+            {
+                "id": "la206",
+                "title": "Priority",
+                "color": "#8BBDD9"
+            }
+        ],
         "groups": []
     },
     {
@@ -590,6 +1026,38 @@
             "bgImg": "url('https://res.cloudinary.com/dwdpgwxqv/image/upload/v1663489314/sprint%204%20/87541_ulolpm.jpg')",
             "isStared": true
         },
+        "labels": [
+            {
+                "id": "la201",
+                "title": "Done",
+                "color": "#B7DDB0"
+            },
+            {
+                "id": "la202",
+                "title": "Progress",
+                "color": "#F5EA92"
+            },
+            {
+                "id": "la203",
+                "title": "Free time",
+                "color": "#FAD29C"
+            },
+            {
+                "id": "la204",
+                "title": "Urgent",
+                "color": "#EFB3AB"
+            },
+            {
+                "id": "la205",
+                "title": "Can wait",
+                "color": "#DFC0EB"
+            },
+            {
+                "id": "la206",
+                "title": "Priority",
+                "color": "#8BBDD9"
+            }
+        ],
         "groups": []
     },
     {
@@ -604,6 +1072,38 @@
             "bgImg": "url('https://res.cloudinary.com/dwdpgwxqv/image/upload/v1663489336/sprint%204%20/react_ugfgnl.png')",
             "isStared": true
         },
+        "labels": [
+            {
+                "id": "la201",
+                "title": "Done",
+                "color": "#B7DDB0"
+            },
+            {
+                "id": "la202",
+                "title": "Progress",
+                "color": "#F5EA92"
+            },
+            {
+                "id": "la203",
+                "title": "Free time",
+                "color": "#FAD29C"
+            },
+            {
+                "id": "la204",
+                "title": "Urgent",
+                "color": "#EFB3AB"
+            },
+            {
+                "id": "la205",
+                "title": "Can wait",
+                "color": "#DFC0EB"
+            },
+            {
+                "id": "la206",
+                "title": "Priority",
+                "color": "#8BBDD9"
+            }
+        ],
         "groups": []
     },
     {
@@ -618,6 +1118,38 @@
             "bgImg": "url('https://res.cloudinary.com/dwdpgwxqv/image/upload/v1663489357/sprint%204%20/87551_vma4fs.jpg')",
             "isStared": true
         },
+        "labels": [
+            {
+                "id": "la201",
+                "title": "Done",
+                "color": "#B7DDB0"
+            },
+            {
+                "id": "la202",
+                "title": "Progress",
+                "color": "#F5EA92"
+            },
+            {
+                "id": "la203",
+                "title": "Free time",
+                "color": "#FAD29C"
+            },
+            {
+                "id": "la204",
+                "title": "Urgent",
+                "color": "#EFB3AB"
+            },
+            {
+                "id": "la205",
+                "title": "Can wait",
+                "color": "#DFC0EB"
+            },
+            {
+                "id": "la206",
+                "title": "Priority",
+                "color": "#8BBDD9"
+            }
+        ],
         "groups": []
     },
     {
@@ -632,6 +1164,38 @@
             "bgImg": "url('https://res.cloudinary.com/dwdpgwxqv/image/upload/v1663489374/sprint%204%20/405575_emcdmf.jpg')",
             "isStared": true
         },
+        "labels": [
+            {
+                "id": "la201",
+                "title": "Done",
+                "color": "#B7DDB0"
+            },
+            {
+                "id": "la202",
+                "title": "Progress",
+                "color": "#F5EA92"
+            },
+            {
+                "id": "la203",
+                "title": "Free time",
+                "color": "#FAD29C"
+            },
+            {
+                "id": "la204",
+                "title": "Urgent",
+                "color": "#EFB3AB"
+            },
+            {
+                "id": "la205",
+                "title": "Can wait",
+                "color": "#DFC0EB"
+            },
+            {
+                "id": "la206",
+                "title": "Priority",
+                "color": "#8BBDD9"
+            }
+        ],
         "groups": []
     }
 ]

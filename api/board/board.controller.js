@@ -31,7 +31,6 @@ async function getBoardById(req, res) {
 // POST (add board)
 async function addBoard(req, res) {
   const loggedinUser = authService.validateToken(req.cookies.loginToken)
-
   try {
     const board = req.body
     board.createdBy = loggedinUser
@@ -46,18 +45,11 @@ async function addBoard(req, res) {
 
 // PUT (Update board)
 async function updateBoard(req, res) {
-  console.log('req.body',req.body)
-  console.log(req.cookies.loginToken);
   const loggedinUser = authService.validateToken(req.cookies.loginToken)
- 
-
   try {
     const board = req.body;
     const updatedBoard = await boardService.update(board)
-    if(loggedinUser&& !board.isPopoverShown) {
-      console.log('loggedinUser',loggedinUser)
-      
-      console.log('socketServicesocketServicesocketService');
+    if(loggedinUser && !board.isPopoverShown) {
       socketService.broadcast({type: 'board-updated', data: board, userId: loggedinUser._id})
     }
     res.json(updatedBoard)
