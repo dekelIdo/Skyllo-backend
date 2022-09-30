@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.82132f91.css",
-    "main.js": "/static/js/main.cc114479.js",
+    "main.css": "/static/css/main.4828e05c.css",
+    "main.js": "/static/js/main.314f3558.js",
     "static/media/trello-logo-Sign-up.png": "/static/media/trello-logo-Sign-up.791cd42e34472ecc2a71.png",
     "static/media/loader.gif": "/static/media/loader.2e231e140df2f1df175b.gif",
     "static/media/Trello-home.jpg": "/static/media/Trello-home.92ac1ef956462089586a.jpg",
@@ -14,11 +14,12 @@
     "static/media/checkbox-positive.svg": "/static/media/checkbox-positive.f4df664838244a0c0cde.svg",
     "static/media/dates-icon.svg": "/static/media/dates-icon.5087fd87d64191b16f9def071642337a.svg",
     "static/media/loader-new.svg": "/static/media/loader-new.f01e2969bfc4c27cbf2316a1008e323d.svg",
-    "static/media/attachmaent-iconbig.svg": "/static/media/attachmaent-iconbig.8bb6b062730cdce059d4d130b8c6e728.svg",
+    "static/media/attachmaent-iconbig.svg": "/static/media/attachmaent-iconbig.d0a872f0662b44fd7fe3275e0231452e.svg",
     "static/media/attachment-small-icon.svg": "/static/media/attachment-small-icon.20c401b8091c724e1949ed55249c3edf.svg",
     "static/media/labels-icon.svg": "/static/media/labels-icon.51943d0a4b1d3a852a6484874b9e79e6.svg",
-    "static/media/star.svg": "/static/media/star.0994bc159c51267566d873a5a538fa11.svg",
+    "static/media/star-hover.svg": "/static/media/star-hover.7d781697aa22b6a7c5e4b9252df5a2b6.svg",
     "static/media/plus-icon-details.svg": "/static/media/plus-icon-details.b42badcf674801e46d6800bfe3e7ecea.svg",
+    "static/media/star.svg": "/static/media/star.9428676aae7597edb7d6dc6ba0889de0.svg",
     "index.html": "/index.html",
     "static/media/invite-member-icon.svg": "/static/media/invite-member-icon.7eab91e7381f611d28ccfceb1d0e3088.svg",
     "static/media/edit-icon-task.svg": "/static/media/edit-icon-task.25a630a2707848feee0b14f0a0ce79aa.svg",
@@ -34,8 +35,8 @@
     "static/media/calender-details.svg": "/static/media/calender-details.46ede910c14694b25c74e072bce9f157.svg",
     "static/media/archive-icon.svg": "/static/media/archive-icon.1037fb803cfec32980ed81212def7a70.svg",
     "static/media/task-icon.svg": "/static/media/task-icon.4f2f0c4e48d0b3b4860d671da8832f6f.svg",
-    "static/media/attachment-icon.svg": "/static/media/attachment-icon.ee1bc92e302d7654d7d71676ec74990d.svg",
     "static/media/edit-icon.svg": "/static/media/edit-icon.6671eb6c4f2417cfcbfbee13c65fae64.svg",
+    "static/media/attachment-icon.svg": "/static/media/attachment-icon.274f8e197869a6186bf2939d6ce67dc3.svg",
     "static/media/due-date-preview-icon2.svg": "/static/media/due-date-preview-icon2.74f659dcd056c33f4e87.svg",
     "static/media/due-date-preview-icon.svg": "/static/media/due-date-preview-icon.bddc197e51b06a3f1837d3224be9c668.svg",
     "static/media/member-exist-icon.svg": "/static/media/member-exist-icon.6580baaaff7234d0b31693f9ffab147f.svg",
@@ -46,11 +47,11 @@
     "static/media/more-options-icon.svg": "/static/media/more-options-icon.6f2982a3407c2d6f844d5e55c3ff7a4a.svg",
     "static/media/more-options2-icon.svg": "/static/media/more-options2-icon.98a3cd3336b91aeaa38c1f183e266f4a.svg",
     "static/media/close-task-form.svg": "/static/media/close-task-form.fe3c7717a49e7e9aea7983d323e3436d.svg",
-    "main.82132f91.css.map": "/static/css/main.82132f91.css.map",
-    "main.cc114479.js.map": "/static/js/main.cc114479.js.map"
+    "main.4828e05c.css.map": "/static/css/main.4828e05c.css.map",
+    "main.314f3558.js.map": "/static/js/main.314f3558.js.map"
   },
   "entrypoints": [
-    "static/css/main.82132f91.css",
-    "static/js/main.cc114479.js"
+    "static/css/main.4828e05c.css",
+    "static/js/main.314f3558.js"
   ]
 }
