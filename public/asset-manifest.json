@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.f7e55a65.css",
-    "main.js": "/static/js/main.f0ddc794.js",
+    "main.css": "/static/css/main.933f4868.css",
+    "main.js": "/static/js/main.47e4a6b5.js",
     "static/media/trello-logo-Sign-up.png": "/static/media/trello-logo-Sign-up.791cd42e34472ecc2a71.png",
     "static/media/loader.gif": "/static/media/loader.2e231e140df2f1df175b.gif",
     "static/media/Trello-home.jpg": "/static/media/Trello-home.92ac1ef956462089586a.jpg",
     "static/media/left-img-login.svg": "/static/media/left-img-login.ff7c76888fdd5eba1ab1c395d3bd0923.svg",
     "static/media/right-img-login.svg": "/static/media/right-img-login.df08073f2685e0d50554315cbd5d6217.svg",
+    "static/media/solutions.svg": "/static/media/solutions.67394c0a77f1f1f121fc3ef6977e626f.svg",
     "static/media/star.png": "/static/media/star.a1bd4d38fda3b9700526.png",
+    "static/media/tag.svg": "/static/media/tag.9078198b05c041e6458ab4537c5f16d1.svg",
+    "static/media/compass.svg": "/static/media/compass.216913a8b66158e7d7e15fd6f12c7263.svg",
     "static/media/createImg.svg": "/static/media/createImg.25c287ae7ad9fc2da090aeeddd284374.svg",
     "static/media/google-icon.svg": "/static/media/google-icon.fc4f52a0dd129319bc68fc612d4effa3.svg",
     "static/media/upload-img-icon.svg": "/static/media/upload-img-icon.424e080f5ae1b3efa9259b21dc8b4989.svg",
@@ -50,11 +53,11 @@
     "static/media/more-options2-icon.svg": "/static/media/more-options2-icon.98a3cd3336b91aeaa38c1f183e266f4a.svg",
     "static/media/close-task-form.svg": "/static/media/close-task-form.fe3c7717a49e7e9aea7983d323e3436d.svg",
     "static/media/close-chart.svg": "/static/media/close-chart.b677947c5bf7cd3af491f073e874d9a9.svg",
-    "main.f7e55a65.css.map": "/static/css/main.f7e55a65.css.map",
-    "main.f0ddc794.js.map": "/static/js/main.f0ddc794.js.map"
+    "main.933f4868.css.map": "/static/css/main.933f4868.css.map",
+    "main.47e4a6b5.js.map": "/static/js/main.47e4a6b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7e55a65.css",
-    "static/js/main.f0ddc794.js"
+    "static/css/main.933f4868.css",
+    "static/js/main.47e4a6b5.js"
   ]
 }
