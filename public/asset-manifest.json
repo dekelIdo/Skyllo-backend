@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.3c066fbd.css",
+    "main.css": "/static/css/main.eded61a2.css",
     "main.js": "/static/js/main.51c3cab0.js",
     "static/media/trello-logo-Sign-up.png": "/static/media/trello-logo-Sign-up.791cd42e34472ecc2a71.png",
     "static/media/loader.gif": "/static/media/loader.2e231e140df2f1df175b.gif",
@@ -53,11 +53,11 @@
     "static/media/more-options2-icon.svg": "/static/media/more-options2-icon.98a3cd3336b91aeaa38c1f183e266f4a.svg",
     "static/media/close-task-form.svg": "/static/media/close-task-form.fe3c7717a49e7e9aea7983d323e3436d.svg",
     "static/media/close-chart.svg": "/static/media/close-chart.b677947c5bf7cd3af491f073e874d9a9.svg",
-    "main.3c066fbd.css.map": "/static/css/main.3c066fbd.css.map",
+    "main.eded61a2.css.map": "/static/css/main.eded61a2.css.map",
     "main.51c3cab0.js.map": "/static/js/main.51c3cab0.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c066fbd.css",
+    "static/css/main.eded61a2.css",
     "static/js/main.51c3cab0.js"
   ]
 }
